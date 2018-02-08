@@ -1,6 +1,9 @@
 // ======================== UNIVERSAL STYLING========================
 $primary-color: #3f51b5;
 $primary-color-darker: #3949a5;
+$primary-color-light: #5e6fc7;
+$secondary-color: #e91e63;
+$secondary-color-light: #f04a81;
 
 body {
   font-family: "Raleway", sans-serif;
@@ -168,16 +171,19 @@ p {
 }
 
 // ============================NAVBAR STYLING=========================
-
-.nav {
+// .nav{
+.secondary-navbar {
   @extend .padding-horizontal;
+  //for mobile view 
   justify-content: center;
+  background-color: $secondary-color-light;
 
   span.nav-link {
+    //hides the span in mobile
     display: none;
+    //left align in desktop
     margin-right: auto;
     color: #fff;
-    //to float left
   }
 
   i {
@@ -188,6 +194,7 @@ p {
   }
 
   @media only screen and (min-width: 768px) {
+    //align to right in desktop
     justify-content: flex-end;
 
     span.nav-link {
@@ -201,64 +208,73 @@ p {
   }
 }
 
-.secondary-navbar {
-  // background-color:$primary-color;
-  background: linear-gradient(#4559cc, #3848a3);
-}
-
 .navbar-brand {
   img {
-    height: 110px;
+    height: 100px;
     width: auto;
-
-    @media only screen and (max-width: 768px) {
-      height: 70px;
-    }
   }
 }
 
 .navbar {
   @extend .padding-horizontal;
+  
+  .search-section {
+    width: 40%;
+    margin-left: auto;
+  }
+
+  //align the main navbar to center
   .navbar-collapse {
     justify-content: center;
   }
 
-  // a.dropdown-toggle {
-  //   color: rgba(255, 255, 255, 0.5);
-  //   &:active,
-  //   &:hover {
-  //     color: rgba(255, 255, 255, 0.75);
-  //   }
-  // }
-}
-
-.navbar-nav {
+  .navbar-nav {
   a.navbar-item,
   a.dropdown-toggle {
     color: #fff !important;
-    padding: 1rem;
+    padding: 1rem 1rem;
 
     &:hover {
-      background-color: #303e8a;
-    }
-  }
-
-  .home-icon-wrapper {
-    padding-top: 0.75rem !important;
-    // padding-bottom:0rem !important;
-
-    i {
-      font-size: 2rem;
+      background-color: #db1e5d;
     }
   }
 
   .btn:focus {
     box-shadow: none;
   }
+
+  .active{
+    background-color:$secondary-color;
+  }
+}
+
+
+  @media only screen and (max-width: 768px) {
+    .navbar-brand {
+      width: 100%;
+      text-align: center;
+      img{
+        height: 70px;
+      }
+    }
+
+    .search-section {
+      width: 100%;
+      margin: 1rem 0;
+    }
+
+    .navbar-toggler {
+      margin-left: auto;
+    }
+  }
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+  padding: 1rem;
 }
 
 .primary-navbar {
-  background-color: $primary-color-darker;
+  background-color: $primary-color-light;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -270,16 +286,17 @@ section.headliners {
   @extend .padding-vertical;
   background-color: #f8f8f8;
 
-  .headline-content {
+  span.headline-content {
     display: block;
     padding: 2rem 1rem;
     background-color: #fff;
     margin-bottom: 1rem;
-  }
-
-  span.headline-content {
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
+
+    &:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
 
     img {
       max-height: 600px;
@@ -505,8 +522,10 @@ section.more-news {
 footer {
   @extend .padding-horizontal;
   @extend .padding-vertical;
+  background-color: $primary-color-light;
+  color: #fff;
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (max-width: 768px) {
     .about-us-footer {
       padding-top: 1rem;
       padding-bottom: 1rem;
@@ -534,5 +553,6 @@ footer {
 
   a {
     font-size: 0.9rem;
+    color: #f8f8f8;
   }
 }
