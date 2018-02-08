@@ -1,0 +1,467 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"gridrow",
+				"grid-row"
+			],
+			[
+				"wraper",
+				"wrapperA"
+			],
+			[
+				"gridtm",
+				"grid-template-columns"
+			],
+			[
+				"colu",
+				"grid-column-start"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"collapse",
+				"collapse"
+			],
+			[
+				"header",
+				"header-style2"
+			],
+			[
+				"col",
+				"col-md-6"
+			],
+			[
+				"image",
+				"background-image"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padding",
+				"padding-style1"
+			],
+			[
+				"slick",
+				"slick-carousel"
+			],
+			[
+				"cit",
+				"citizenship-number"
+			],
+			[
+				"famil",
+				"familyMembers"
+			],
+			[
+				"Mother",
+				"Mother"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"bu",
+				"button"
+			],
+			[
+				"but",
+				"button-style2"
+			],
+			[
+				"navbar",
+				"navbar-default"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"x",
+				"xx-large"
+			],
+			[
+				"textal",
+				"text-align"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "inden",
+		"selected_items":
+		[
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"syntax",
+				"Set Syntax: Sass"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"scss",
+				"Set Syntax: CSS"
+			],
+			[
+				"packagecontrol",
+				"Package Control: List Packages"
+			],
+			[
+				"set syntax:s",
+				"Set Syntax: Sass"
+			]
+		],
+		"width": 540.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Baibhav/Desktop/Work/News Template",
+		"/C/Users/Baibhav/Desktop/Work/News Template/News Template Feb-5",
+		"/C/Users/Baibhav/Desktop/Work/News Template/News Template Feb-5/css",
+		"/C/Users/Baibhav/Desktop/Work/News Template/News Template Feb-5/html"
+	],
+	"file_history":
+	[
+		"/C/Users/Baibhav/Desktop/Work/News Template/News Template Feb-5/css/style.scss",
+		"/C/Users/Baibhav/Desktop/Work/News Template/News Template Feb-5/html/index.html",
+		"/C/Users/Baibhav/Desktop/Work/News Template/News Template Feb-5/css/style.css",
+		"/C/Users/Baibhav/Desktop/Work/CSS Grids/test.css",
+		"/C/Users/Baibhav/Desktop/Work/CSS Grids/css/style3.scss",
+		"/C/Users/Baibhav/Desktop/Work/CSS Grids/html/grid-element-order.html",
+		"/C/Users/Baibhav/Desktop/Work/CSS Grids/css/style2.scss",
+		"/C/Users/Baibhav/Desktop/Work/CSS Grids/css/style.scss",
+		"/C/Users/Baibhav/Desktop/Work/CSS Grids/html/basic-grids-eg.html",
+		"/C/Users/Baibhav/Desktop/Work/CSS Grids/html/grid-span-eg.html",
+		"/C/Users/Baibhav/Desktop/Work/Wordpress Template/html/index.html",
+		"/C/Users/Baibhav/Desktop/Work/Wordpress Template/images/image1.jpeg",
+		"/C/Users/Baibhav/AppData/Roaming/Sublime Text 3/Packages/User/bootstrapsnippet.sublime-snippet",
+		"/C/Users/Baibhav/AppData/Roaming/Sublime Text 3/Packages/User/test.sublime-snippet",
+		"/C/Users/Baibhav/Desktop/Work/Wordpress Template/test.html",
+		"/C/Users/Baibhav/Desktop/Work/Online Application/html/index.html",
+		"/C/Users/Baibhav/Desktop/Work/Online Application/css/style.scss",
+		"/C/Users/Baibhav/Desktop/Work/Avenue HongKong/avenue-sublime-project.sublime-project",
+		"/C/Users/Baibhav/Desktop/Work/Avenue HongKong/avenuejan1-9/index.html",
+		"/C/Users/Baibhav/Desktop/Work/NGO Website/css/style.css",
+		"/C/Users/Baibhav/Desktop/Work/NGO Website/index.html",
+		"/C/Users/Baibhav/Desktop/Work/Firmsoft Template/aboutus.html",
+		"/C/Users/Baibhav/Desktop/Work/Firmsoft Template/contactus.html",
+		"/C/Users/Baibhav/Desktop/Work/Firmsoft Template/projects.html",
+		"/C/Users/Baibhav/Desktop/Work/Firmsoft Template/css/style.css",
+		"/C/Users/Baibhav/Desktop/Work/Firmsoft Template/index.html",
+		"/C/Users/Baibhav/Desktop/Work/Scholarship Form FINAL FORMAT/index.html",
+		"/C/Users/Baibhav/Desktop/Work/Firmsoft Template/css/aboutus.css",
+		"/C/Users/Baibhav/Desktop/Work/Form/form/index.html",
+		"/C/Users/Baibhav/Desktop/Work/Firmsoft Template/js/index.js",
+		"/C/Users/Baibhav/Desktop/Work/Project Bits/NewsSite Template/css/style.css",
+		"/C/Users/Baibhav/Desktop/Work/Firmsoft Template/images/aboutus/johndoe.jpg",
+		"/C/Users/Baibhav/Desktop/Work/Project Bits/NewsSite Template/index.html",
+		"/C/Users/Baibhav/Desktop/Portfolio 2/js/index.js",
+		"/C/Users/Baibhav/Desktop/Portfolio 2/css/style.css",
+		"/C/Users/Baibhav/Desktop/Portfolio 2/index.html",
+		"/C/Users/Baibhav/Desktop/Work/Project Bits/NewsSite Template/js/index.js",
+		"/C/Users/Baibhav/Desktop/Work/Project Bits/NewsSite Template/content-details.html",
+		"/C/Users/Baibhav/Desktop/Work/Project Bits/NewsSite Template/navbar-list.html",
+		"/C/Users/Baibhav/Desktop/Work/NewsSite Template/js/index.js",
+		"/C/Users/Baibhav/Desktop/Work/NewsSite Template/index.html",
+		"/C/Users/Baibhav/Desktop/Work/Project Bits/SlickCarousel/index.js",
+		"/C/Users/Baibhav/Desktop/Work/Project Bits/SlickCarousel/index.html",
+		"/C/Users/Baibhav/Desktop/Work/Form/form/styles.css",
+		"/C/Users/Baibhav/Desktop/Work/scholarship-form/index.html",
+		"/C/Users/Baibhav/Desktop/Work/Newspaper Template/js/index.js",
+		"/C/Users/Baibhav/Desktop/Work/Newspaper Template/css/style.css",
+		"/C/Users/Baibhav/Desktop/Work/Newspaper Template/index.html",
+		"/C/Users/Baibhav/Desktop/Work/Newspaper Template/imagesliderw3.html",
+		"/C/Users/Baibhav/Desktop/Work/Newspaper Template/imageslider.html",
+		"/C/Users/Baibhav/Desktop/Work/Project Bits/Full Navbar/css/style.css",
+		"/C/Users/Baibhav/Desktop/Work/Project Bits/Full Navbar/js/index.js",
+		"/C/Users/Baibhav/Desktop/Work/Project Bits/Full Navbar/index.html",
+		"/C/Users/Baibhav/Desktop/Work/NGO Template 2/css/style.css",
+		"/C/Users/Baibhav/Desktop/Work/NGO Template 2/js/index.js",
+		"/C/Users/Baibhav/Desktop/Work/NGO Template 2/index.html",
+		"/C/Users/Baibhav/Desktop/Work/Scholarship Form FINAL FORMAT/AdmitCard.html",
+		"/C/Users/Baibhav/Desktop/Work/Scholarship Form FINAL FORMAT/css/style.css",
+		"/C/Users/Baibhav/Desktop/Work/Scholarship-form-format2/index.html",
+		"/C/Users/Baibhav/Desktop/Work/Scholarship-form-format2/js/index.js",
+		"/C/Users/Baibhav/Desktop/Work/Scholarship-form-format2/css/style.css",
+		"/C/Users/Baibhav/Desktop/Work/Scholarship-form-format2/AdmitCard.html",
+		"/C/Users/Baibhav/Desktop/Work/scholarship-form/js/index.js",
+		"/C/Users/Baibhav/Desktop/Work/scholarship-form/css/style.css",
+		"/C/Users/Baibhav/Desktop/Work/NGO Website/js/index.js",
+		"/C/Users/Baibhav/Desktop/Work/NGO Website/WhoWeAre.html",
+		"/C/Users/Baibhav/Desktop/Work/Project Bits/nav bar full/AboutUs.html",
+		"/C/Users/Baibhav/Desktop/Work/Project Bits/nav bar full/index.html",
+		"/C/Users/Baibhav/Desktop/Work/Project Bits/nav bar full/css/style.css",
+		"/C/Users/Baibhav/Desktop/Work/Project Bits/nav bar full/js/index.js",
+		"/C/Users/Baibhav/Desktop/Work/Project Bits/nav bar full/style.css",
+		"/C/Users/Baibhav/Desktop/Work/Project Bits/dropdown-menu/index.html",
+		"/C/Users/Baibhav/Desktop/Work/Project Bits/navbar/index.html",
+		"/C/Users/Baibhav/Desktop/Work/Project Bits/dropdown-menu/css/style.css",
+		"/C/Users/Baibhav/Desktop/Work/Project Bits/navbar/css/style.css",
+		"/C/Users/Baibhav/Desktop/Work/Project Bits/OnHoverLists/index.html",
+		"/C/Users/Baibhav/Desktop/Work/Project Bits/Collapsable NavBar/index.html",
+		"/C/Users/Baibhav/Desktop/Work/Project Bits/Collapsable NavBar/index1.html",
+		"/C/Users/Baibhav/Desktop/Work/news_times-web/web/js/easyResponsiveTabs.js",
+		"/C/Users/Baibhav/Desktop/Work/news_times-web/web/js/bootstrap.js",
+		"/C/Users/Baibhav/Desktop/Work/news_times-web/web/js/responsiveslides.min.js",
+		"/C/Users/Baibhav/Desktop/Work/news_times-web/web/js/modernizr.custom.min.js",
+		"/C/Users/Baibhav/Desktop/Work/news_times-web/web/js/modernizr.custom.46884.js",
+		"/C/Users/Baibhav/Desktop/Work/news_times-web/web/js/jquery-1.11.1.min.js",
+		"/C/Users/Baibhav/Desktop/Work/news_times-web/web/js/jquery.wmuSlider.js",
+		"/C/Users/Baibhav/Desktop/Work/news_times-web/web/js/jquery.slicebox.js",
+		"/C/Users/Baibhav/Desktop/Work/news_times-web/web/js/jquery.magnific-popup.js",
+		"/C/Users/Baibhav/Desktop/Work/news_times-web/web/js/jquery.marquee.js",
+		"/C/Users/Baibhav/Desktop/Work/news_times-web/web/js/jquery.chocolat.js",
+		"/C/Users/Baibhav/Desktop/Work/news_times-web/web/js/jquery.flexisel.js",
+		"/C/Users/Baibhav/Desktop/Work/news_times-web/web/css/style.css",
+		"/C/Users/Baibhav/Desktop/Work/news_times-web/web/index.html",
+		"/C/Users/Baibhav/Desktop/Work/navbar/index.html",
+		"/C/Users/Baibhav/Desktop/Work/navbar/css/style.css",
+		"/C/Users/Baibhav/Desktop/Work/news_times-web/web/images/banner.jpg",
+		"/G/Work/Programming/JavaScript/CodePen/Portfolio/js/index.js",
+		"/G/Work/Programming/JavaScript/jquery-1.12.4.min.js",
+		"/G/Work/Programming/JavaScript/jscriptFunctionsInLists.html",
+		"/G/Work/Programming/JavaScript/design.css",
+		"/C/Users/Baibhav/Desktop/JavaScript/learningcssbasics.html",
+		"/C/Users/Baibhav/Desktop/JavaScript/JscriptFiddle.html",
+		"/C/Users/Baibhav/Desktop/JavaScript/loops.html",
+		"/C/Users/Baibhav/Desktop/JavaScript/Listening.html",
+		"/C/Users/Baibhav/Desktop/Java Coding/second.java",
+		"/C/Users/Baibhav/Desktop/JavaScript/MockNews.html",
+		"/C/Users/Baibhav/Desktop/Java Coding/First.java",
+		"/C/Users/Baibhav/Desktop/JavaScript/jquery-1.12.4.min.js",
+		"/C/Users/Baibhav/Desktop/JavaScript/CSSClassesIds.html",
+		"/C/Users/Baibhav/Desktop/JavaScript/Functionprac.html",
+		"/C/Users/Baibhav/Desktop/Java Fundamentals/Terms.docx",
+		"/C/xampp/htdocs/Jwellery1/setupPage.php",
+		"/C/xampp/htdocs/Jwellery1/check.php",
+		"/C/xampp/htdocs/Jwellery1/adminHelp.php",
+		"/C/xampp/htdocs/Jwellery1/index.php",
+		"/C/xampp/htdocs/BAIBHAV/helloworld.php",
+		"/C/Users/Baibhav/Desktop/PHP/PHPNotes",
+		"/C/Users/Baibhav/Desktop/JavaScript/third.html",
+		"/C/Users/Baibhav/Desktop/JavaScript/second.html",
+		"/C/Users/Baibhav/Desktop/JavaScript/first.html",
+		"/C/Users/Baibhav/Desktop/JavaScript/third",
+		"/C/Users/Baibhav/Desktop/JavaScript/thirds",
+		"/C/Users/Baibhav/Desktop/Angular/eg1Directives.html",
+		"/C/Users/Baibhav/Desktop/Angular/expressions2.html",
+		"/C/Users/Baibhav/Desktop/Angular/expressions.html",
+		"/C/Users/Baibhav/Desktop/Angular/eg2directives2.html",
+		"/C/Users/Baibhav/Desktop/JavaScript/Angular/Angular notes",
+		"/C/Users/Baibhav/Desktop/JavaScript/Angular/eg1.html",
+		"/C/Users/Baibhav/Desktop/JavaScript/Bootstrap/responsiveFluidWidthContainer.html"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "C:\\Users\\Baibhav\\Desktop\\Work\\News Template",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "news-template.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"avenue-sublime-project.sublime-project"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Baibhav\\Desktop\\Work\\Hotel Template\\hotel-template.sublime-project"
+			],
+			[
+				"scss",
+				"C:\\Users\\Baibhav\\Desktop\\Work\\SCSS exercises\\scss.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 168.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>NewsSite Template</title>
+
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	 crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+	<nav class="nav navbar-dark bg-dark">
+		<span class="nav-link">मंगलबार २३ माघ, २०७४ | Tuesday, 06 February, 2018</span>
+		<a href="#" class="nav-link">
+			<i class="fa fa-facebook" aria-hidden="true"></i>
+		</a>
+		<a href="#" class="nav-link">
+			<i class="fa fa-twitter" aria-hidden="true"></i>
+		</a>
+		<a href="#" class="nav-link">
+			<i class="fa fa-instagram" aria-hidden="true"></i>
+		</a>
+		<a href="#" class="nav-link">
+			<i class="fa fa-linkedin" aria-hidden="true"></i>
+		</a>
+	</nav>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+		<a href="#" class="navbar-brand">NewsSite Name</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-items-list">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+	</nav>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+		<!-- <a href="#" class="navbar-brand">NewsSite Name</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-items-list">
+			<span class="navbar-toggler-icon"></span>
+		</button> -->
+		<div class="navbar-collapse collapse" id="navbar-items-list">
+			<div class="navbar-nav">
+				<a href="#" class="navbar-item nav-link active">घर</a>
+				<div class="dropdown show">
+					<a class="btn dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						रोजगारी
+					</a>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+						<a class="dropdown-item" href="#">घरेलू जागिर</a>
+						<a class="dropdown-item" href="#">विदेशी जागिर</a>
+						<a class="dropdown-item" href="#">NGO जागिर</a>
+						<a class="dropdown-item" href="#">INGO जागिर</a>
+						<a class="dropdown-item" href="#">निजी जागिर</a>
+						<div class="dropdown-divider"></div>
+						<a href="#" class="dropdown-item">विशेष जागिर</a>
+					</div>
+				</div>
+				<a href="#" class="navbar-item nav-link">नियोक्ताहरूको प्रोफाइल</a>
+				<div class="dropdown show">
+					<a href="#" class="btn dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">समाचार</a>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+						<a href="#" class="dropdown-item">विदेशी समाचार</a>
+						<a href="#" class="dropdown-item">घरेलू समाचार</a>
+						<a href="#" class="dropdown-item">सबै समाचार</a>
+					</div>
+				</div>
+				<div class="dropdown show">
+					<a href="#" class="btn dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">लेख</a>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+						<a href="#" class="dropdown-item">व्यक्तित्व विकास</a>
+						<a href="#" class="dropdown-item">शुभ सुझावहरू</a>
+						<a href="#" class="dropdown-item">आत्म सहयोग</a>
+						<a href="#" class="dropdown-item">परिवार व्यवस्थापन</a>
+						<a href="#" class="dropdown-item">जीवन कौशल</a>
+						<a href="#" class="dropdown-item">व्यवसायिक कौशल</a>
+					</div>
+				</div>
+				<a href="#" class="navbar-item nav-link">सफलता कथाहरू</a>
+				<a href="#" class="navbar-item nav-link">भिडियो</a>
+			</div>
+		</div>
+	</nav>
+	<!-- HEADLINERS -->
+	<section class="headliners">
+		<a class="link-wrapper" href="#">
+			<span class="headline-content">
+				<h2>राष्ट्रिय सभा चुनाव आज - ३२ सिटका लागि ५२ प्रतिस्पर्धी</h2>
+				<img src="../images/headlines-img1.jpg" alt="headline-content" class="img-fluid">
+			</span>
+		</a>
+		<a class="link-wrapper" href="#">
+			<span class="headline-content">
+				<h2>नयाँ जनवादी सशस्त्र क्रान्तिको विकल्प छैन : बैद्य</h2>
+				<img src="../images/headlines-img2.jpeg" alt="headline-content" class="img-fluid">
+			</span>
+		</a>
+	</section>
+
+	<!-- NEWS ARTICLES -->
+	<section class="news-articles container-fluid">
+		<div class="row">
+			<div class="col-lg-8">
+				<!-- POPULAR NEWS -->
+				<div class="row">
+					<h4 class="content-header content-header-fullwidth">
+						लोकप्रिय समाचारहरू
+					</h4>
+					<div class="col-md-6">
+						<div class="card">
+							<a href="#" class="link-wrapper">
+								<img class="card-img-top" alt="Card image cap" src="../images/popular-news1.jpg" alt="placeholder+image">
+								<div class="card-body">
+									<h5 class="card-title news-header">राष्ट्रपतिमा एउटै व्यक्ति दोहोरिनु हुन्न : झलनाथ खनाल</h5>
+									<p class="card-text byline">
+										<span class="author-name">संवाददाता</span> | माघ २३, २०७४
+									</p>
+									<p class="card-text">काँग्रेसको इतिहासको कुरा गर्दा कसरी दुई काँग्रेस एक भए भन्ने सन्दर्भमा नजाऔँ । विसं. २००६ मा काँग्रेसको स्थापना
+										थयो । त्यसपछिको समयमा काँग्रेसको डाइनामिज्म एकपछि अर्को देखिएको थियो । बीपीको नेतृत्वमा काँग्रेस सुरु हुँदा शान्तिपूर्ण
+										आन्दोलनको माध्यमबाट नेपालमा संवैधानिक राजतन्त्रसहितको प्रजातन्त्रको लाइन देखिएको थियो । बीपीकालीन काँग्रेसको बडो
+										विचित्रको फेज थियो ।</p>
+									<p class="read-more-link">थप पढ्नुहोस्</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-6 list-item-wrapper add-padding">
+						<a href="#" class="link-wrapper">
+							<span class="list-items">
+								<div class="img-wrapper">
+									<img src="../images/popular-news1.jpg" alt="placeholder+image">
+								</div>
+								<div class="list-item-info">
+									<h5 class="news-header">नेपालको सुरक्षा व्यवस्था निकै कमजोर हुँदा खुलेआम तस्करी</h5>
+									<p class="byline">माघ २३, २०७४</p>
+								</div>
+							</span>
+						</a>
+						<a href="#" class="link-wrapper">
+							<span class="list-items">
+								<div class="img-wrapper">
+									<img src="../images/popular-news2.jpg" alt="placeholder+image">
+								</div>
+								<div class="list-item-info">
+									<h5 class="news-header">राष्ट्रियसभा निर्वाचनमा स्वस्तिक चिन्ह प्रयोग नहुने</h5>
+									<p class="byline">माघ २३, २०७४</p>
+								</div>
+							</span>
+						</a>
+						<a href="#" class="link-wrapper">
+							<span class="list-items">
+								<div class="img-wrapper">
+									<img src="../images/popular-news3.jpg" alt="placeholder+image">
+								</div>
+								<div class="list-item-info">
+									<h5 class="news-header">गर्छिन् कि त निकिताले?</h5>
+									<p class="byline">माघ २३, २०७४</p>
+								</div>
+							</span>
+						</a>
+						<a href="#" class="link-wrapper">
+							<span class="list-items">
+								<div class="img-wrapper">
+									<img src="../images/popular-news4.jpg" alt="placeholder+image">
+								</div>
+								<div class="list-item-info">
+									<h5 class="news-header">राष्ट्रिय सभा निर्वाचनका लागि प्रदेश ३ को तयारी पूरा</h5>
+									<p class="byline">माघ २३, २०७४</p>
+								</div>
+							</span>
+						</a>
+					</div>
+					<div class="w-100"></div>
+					<div class="col-md-6">
+						<!-- HEALTH -->
+						<h4 class="content-header">स्वास्थ्य</h4>
+						<div class="content-mainimg-wrapper">
+							<img src="../images/health-main.jpg" alt="travel-phewa-lake">
+							<div class="content-caption">
+								<h5>राष्ट्रिय सभा निर्वाचनका लागि प्रदेश ३ को तयारी</h5>
+							</div>
+						</div>
+						<div class="list-item-wrapper add-padding">
+							<a href="#" class="link-wrapper">
+								<span class="list-items">
+									<div class="img-wrapper">
+										<img src="../images/health1.jpg" alt="placeholder+image">
+									</div>
+									<div class="list-item-info">
+										<h5 class="news-header">नेपालको सुरक्षा व्यवस्था निकै कमजोर हुँदा खुलेआम तस्करी</h5>
+										<p class="byline">माघ २३, २०७४</p>
+									</div>
+								</span>
+							</a>
+							<a href="#" class="link-wrapper">
+								<span class="list-items">
+									<div class="img-wrapper">
+										<img src="../images/health2.jpg" alt="placeholder+image">
+									</div>
+									<div class="list-item-info">
+										<h5 class="news-header">राष्ट्रियसभा निर्वाचनमा स्वस्तिक चिन्ह प्रयोग नहुने</h5>
+										<p class="byline">माघ २३, २०७४</p>
+									</div>
+								</span>
+							</a>
+							<a href="#" class="link-wrapper">
+								<span class="list-items">
+									<div class="img-wrapper">
+										<img src="../images/health3.jpg" alt="placeholder+image">
+									</div>
+									<div class="list-item-info">
+										<h5 class="news-header">गर्छिन् कि त निकिताले?</h5>
+										<p class="byline">माघ २३, २०७४</p>
+									</div>
+								</span>
+							</a>
+							<a href="#" class="link-wrapper">
+								<span class="list-items">
+									<div class="img-wrapper">
+										<img src="../images/health4.jpg" alt="placeholder+image">
+									</div>
+									<div class="list-item-info">
+										<h5 class="news-header">राष्ट्रिय सभा निर्वाचनका लागि प्रदेश ३ को तयारी पूरा</h5>
+										<p class="byline">माघ २३, २०७४</p>
+									</div>
+								</span>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<!-- TRAVEL -->
+						<h4 class="content-header">यात्रा</h4>
+						<div class="content-mainimg-wrapper">
+							<img src="../images/travel-main.jpg" alt="travel-phewa-lake">
+							<div class="content-caption">
+								<h5>राष्ट्रिय सभा निर्वाचनका लागि प्रदेश ३ को तयारी</h5>
+							</div>
+						</div>
+						<div class="list-item-wrapper add-padding">
+							<a href="#" class="link-wrapper">
+								<span class="list-items">
+									<div class="img-wrapper">
+										<img src="../images/travel1.jpg" alt="travel-nepal-news">
+									</div>
+									<div class="list-item-info">
+										<h5 class="news-header">चुडामणि शर्माको घरमा नेकपा कार्यकर्ताले गरे तोडफोड</h5>
+										<p class="byline">माघ २३, २०७४</p>
+									</div>
+								</span>
+							</a>
+							<a href="#" class="link-wrapper">
+								<span class="list-items">
+									<div class="img-wrapper">
+										<img src="../images/travel2.jpg" alt="travel-nepal-news">
+									</div>
+									<div class="list-item-info">
+										<h5 class="news-header">गुगलको क्लिप्स</h5>
+										<p class="byline">माघ २३, २०७४</p>
+									</div>
+								</span>
+							</a>
+							<a href="#" class="link-wrapper">
+								<span class="list-items">
+									<div class="img-wrapper">
+										<img src="../images/travel3.jpg" alt="travel-nepal-news">
+									</div>
+									<div class="list-item-info">
+										<h5 class="news-header">अपहरणमा परेको पानीजहाज मुक्त</h5>
+										<p class="byline">माघ २३, २०७४</p>
+									</div>
+								</span>
+							</a>
+							<a href="#" class="link-wrapper">
+								<span class="list-items">
+									<div class="img-wrapper">
+										<img src="../images/travel4.jpg" alt="travel-nepal-news">
+									</div>
+									<div class="list-item-info">
+										<h5 class="news-header">‘डमरुको डन्डिबियो’ को पहिलो पोष्टर</h5>
+										<p class="byline">माघ २३, २०७४</p>
+									</div>
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<!-- FOLLOW US  -->
+				<h4 class="content-header">हामीलाई पछ्याउनुहोस</h4>
+				<div class="social-media-wrapper">
+					<i class="fa fa-2x fa-facebook" aria-hidden="true"></i>
+					<i class="fa fa-2x fa-instagram" aria-hidden="true"></i>
+					<i class="fa fa-2x fa-youtube-play" aria-hidden="true"></i>
+					<i class="fa fa-2x fa-vimeo-square" aria-hidden="true"></i>
+					<i class="fa fa-2x fa-google-plus-square" aria-hidden="true"></i>
+					<i class="fa fa-2x fa-twitter" aria-hidden="true"></i>
+				</div>
+				<!-- MOST READ -->
+				<h4 class="content-header">धेरै हेरिएको</h4>
+				<div class="content-mainimg-wrapper">
+					<img src="../images/most-viewed-main.jpg" alt="travel-phewa-lake">
+					<div class="content-caption">
+						<h5>राष्ट्रिय सभा निर्वाचनका लागि प्रदेश ३ को तयारी</h5>
+					</div>
+				</div>
+				<div class="list-item-wrapper add-padding">
+					<a href="#" class="link-wrapper">
+						<span class="list-items">
+							<div class="img-wrapper">
+								<img src="../images/most-viewed1.jpg" alt="placeholder+image">
+							</div>
+							<div class="list-item-info">
+								<h5 class="news-header">‘डमरुको डन्डिबियो’ को पहिलो पोष्टर</h5>
+								<p class="byline">माघ २३, २०७४</p>
+							</div>
+						</span>
+					</a>
+					<a href="#" class="link-wrapper">
+						<span class="list-items">
+							<div class="img-wrapper">
+								<img src="../images/most-viewed2.jpg" alt="placeholder+image">
+							</div>
+							<div class="list-item-info">
+								<h5 class="news-header">‘डमरुको डन्डिबियो’ को पहिलो पोष्टर</h5>
+								<p class="byline">माघ २३, २०७४</p>
+							</div>
+						</span>
+					</a>
+					<a href="#" class="link-wrapper">
+						<span class="list-items">
+							<div class="img-wrapper">
+								<img src="../images/most-viewed3.jpg" alt="placeholder+image">
+							</div>
+							<div class="list-item-info">
+								<h5 class="news-header">‘डमरुको डन्डिबियो’ को पहिलो पोष्टर</h5>
+								<p class="byline">माघ २३, २०७४</p>
+							</div>
+						</span>
+					</a>
+					<a href="#" class="link-wrapper">
+						<span class="list-items">
+							<div class="img-wrapper">
+								<img src="../images/most-viewed4.jpeg" alt="placeholder+image">
+							</div>
+							<div class="list-item-info">
+								<h5 class="news-header">‘डमरुको डन्डिबियो’ को पहिलो पोष्टर</h5>
+								<p class="byline">माघ २३, २०७४</p>
+							</div>
+						</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="gallery-section">
+		<!-- GALLERY -->
+		<h4 class="content-header">ग्यालरी</h4>
+		<div class="grid-wrapper">
+			<img class="img-fluid main-banner" src="../images/main-section1.jpeg" alt="placeholder+image">
+			<img class="img-fluid" src="../images/main-section2.jpg" alt="placeholder+image">
+			<img class="img-fluid" src="../images/main-section3.jpg" alt="placeholder+image">
+			<img class="img-fluid" src="../images/main-section4.jpg" alt="placeholder+image">
+			<img class="img-fluid" src="../images/main-section5.jpg" alt="placeholder+image">
+		</div>
+	</section>
+
+	<section class="opinions-section container-fluid">
+		<div class="row">
+			<div class="col-lg-8">
+				<div class="row">
+					<div class="col-md-6">
+						<h4 class="content-header">Opinions</h4>
+						<div class="column-wrapper">
+							<a href="#" class="link-wrapper">
+								<span class="list-items">
+									<div class="img-wrapper">
+										<img src="../images/opinions1.jpg" alt="placeholder+image">
+									</div>
+									<div class="list-item-info">
+										<h5 class="news-header">‘डमरुको डन्डिबियो’ को पहिलो पोष्टर</h5>
+										<p class="byline">
+											<span class="author-name">संवाददाता</span>
+										</p>
+									</div>
+								</span>
+							</a>
+							<a href="#" class="link-wrapper">
+								<span class="list-items">
+									<div class="img-wrapper">
+										<img src="../images/opinions5.jpg" alt="placeholder+image">
+									</div>
+									<div class="list-item-info">
+										<h5 class="news-header">‘डमरुको डन्डिबियो’ को पहिलो पोष्टर</h5>
+										<p class="byline">
+											<span class="author-name">संवाददाता</span>
+										</p>
+									</div>
+								</span>
+							</a>
+							<a href="#" class="link-wrapper">
+								<span class="list-items">
+									<div class="img-wrapper">
+										<img src="../images/opinions2.jpg" alt="placeholder+image">
+									</div>
+									<div class="list-item-info">
+										<h5 class="news-header">‘डमरुको डन्डिबियो’ को पहिलो पोष्टर</h5>
+										<p class="byline">
+											<span class="author-name">संवाददाता</span>
+										</p>
+									</div>
+								</span>
+							</a>
+							<a href="#" class="link-wrapper">
+								<span class="list-items">
+									<div class="img-wrapper">
+										<img src="../images/opinions4.jpg" alt="placeholder+image">
+									</div>
+									<div class="list-item-info">
+										<h5 class="news-header">‘डमरुको डन्डिबियो’ को पहिलो पोष्टर</h5>
+										<p class="byline">
+											<span class="author-name">संवाददाता</span>
+										</p>
+									</div>
+								</span>
+							</a>
+						</div>
+
+					</div>
+					<!-- tabbed contents here -->
+					<div class="col-md-6 tabbed-contents">
+						<ul class="nav nav-tabs" id="myTab" role="tablist">
+							<li class="nav-item">
+								<a class="nav-link tabbed-content-header active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Breaking</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link tabbed-content-header" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Public</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link tabbed-content-header" id="messages-tab" data-toggle="tab" href="#messages" role="tab" aria-controls="messages" aria-selected="false">Interviews</a>
+							</li>
+						</ul>
+
+						<div class="tab-content">
+							<div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+								<div class="tab-list-items">
+									<a href="#" class="link-wrapper">
+										<h5 class="news-header">‘पुरातत्वसँग रानीपोखरीको मल्लकालीन डिजा छैन’</h5>
+									</a>
+									<div class="list-items">
+										<div class="img-wrapper">
+											<img src="../images/breaking1.jpg" alt="placeholder+image">
+										</div>
+										<div class="list-item-info">
+											<p>२३ माघ, काठमाडौं । पुरातत्व विभागले रानीपोखरीको मल्लकालीन डिजाइन आफूसँग नभएको बताएको छ । विज्ञ समूहले मल्लकालीन
+												शैलीमा नै पुनर्निर्माण गर्न फारिस गरेपछि...</p>
+										</div>
+									</div>
+								</div>
+								<div class="tab-list-items">
+									<a href="#" class="link-wrapper">
+										<h5 class="news-header">‘पुरातत्वसँग रानीपोखरीको मल्लकालीन डिजा छैन’</h5>
+									</a>
+									<div class="list-items">
+										<div class="img-wrapper">
+											<img src="../images/breaking2.jpg" alt="placeholder+image">
+										</div>
+										<div class="list-item-info">
+											<p>२३ माघ, काठमाडौं । पुरातत्व विभागले रानीपोखरीको मल्लकालीन डिजाइन आफूसँग नभएको बताएको छ । विज्ञ समूहले मल्लकालीन
+												शैलीमा नै पुनर्निर्माण गर्न फारिस गरेपछि...</p>
+										</div>
+									</div>
+								</div>
+								<div class="tab-list-items">
+									<a href="#" class="link-wrapper">
+										<h5 class="news-header">‘पुरातत्वसँग रानीपोखरीको मल्लकालीन डिजा छैन’</h5>
+									</a>
+									<div class="list-items">
+										<div class="img-wrapper">
+											<img src="../images/breaking3.jpg" alt="placeholder+image">
+										</div>
+										<div class="list-item-info">
+											<p>२३ माघ, काठमाडौं । पुरातत्व विभागले रानीपोखरीको मल्लकालीन डिजाइन आफूसँग नभएको बताएको छ । विज्ञ समूहले मल्लकालीन
+												शैलीमा नै पुनर्निर्माण गर्न फारिस गरेपछि...</p>
+										</div>
+									</div>
+								</div>
+								<div class="tab-list-items">
+									<a href="#" class="link-wrapper">
+										<h5 class="news-header">‘पुरातत्वसँग रानीपोखरीको मल्लकालीन डिजा छैन’</h5>
+									</a>
+									<div class="list-items">
+										<div class="img-wrapper">
+											<img src="../images/breaking4.jpg" alt="placeholder+image">
+										</div>
+										<div class="list-item-info">
+											<p>२३ माघ, काठमाडौं । पुरातत्व विभागले रानीपोखरीको मल्लकालीन डिजाइन आफूसँग नभएको बताएको छ । विज्ञ समूहले मल्लकालीन
+												शैलीमा नै पुनर्निर्माण गर्न फारिस गरेपछि...</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane public" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+								<a href="#" class="link-wrapper">
+									<div class="tab-list-items">
+										<h5 class="news-header">‘पुरातत्वसँग रानीपोखरीको मल्लकालीन डिजा छैन’</h5>
+									</div>
+								</a>
+								<a href="#" class="link-wrapper">
+									<div class="tab-list-items">
+										<h5 class="news-header">वीरगञ्जले पाउने भयो मुख्यमन्त्री, फोरम संसदीय दलको नेतामा राउत चयन</h5>
+									</div>
+								</a>
+								<a href="#" class="link-wrapper">
+									<div class="tab-list-items">
+										<h5 class="news-header">एमालेको आन्तरिक तयारी : प्रदेश १ को राजधानी इटहरी आसपास</h5>
+									</div>
+								</a>
+								<a href="#" class="link-wrapper">
+									<div class="tab-list-items">
+										<h5 class="news-header">धुर्मुसको सिन काटिएपछि ‘भद्रगोल’ भित्र भद्रगोल, प्रशारण अनिश्चित</h5>
+									</div>
+								</a>
+								<a href="#" class="link-wrapper">
+									<div class="tab-list-items">
+										<h5 class="news-header">‘पुरातत्वसँग रानीपोखरीको मल्लकालीन डिजा छैन’</h5>
+									</div>
+								</a>
+								<a href="#" class="link-wrapper">
+									<div class="tab-list-items">
+										<h5 class="news-header">भित्र प्रदेशसभा ! बाहिर ‘पाइखाना सभा’</h5>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-lg-4"></div>
+		</div>
+	</section>
+
+	<section class="video-section container-fluid">
+		<!-- VIDEO -->
+		<h4 class="content-header">भिडियो</h4>
+		<div class="row">
+			<div class="col-lg-7">
+				<img src="http://dummyimage.com/800x600/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image" class="img-fluid">
+			</div>
+			<div class="col-lg-5 list-item-wrapper add-padding">
+				<div class="list-items">
+					<img class="img-fluid" src="http://dummyimage.com/800x600/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
+					<div class="list-item-info">
+						<p>यी हुन् मोबाइलमा सबैभन्दा धेरै खर्च गर्ने व्यक्ति र संस्था</p>
+					</div>
+				</div>
+				<div class="list-items">
+					<img class="img-fluid" src="http://dummyimage.com/800x600/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
+					<div class="list-item-info">
+						<p>यसरी ठडियो सन्तपुर बस्ती, धुर्मुसले दिए चुले निम्तो</p>
+					</div>
+				</div>
+				<div class="list-items">
+					<img class="img-fluid" src="http://dummyimage.com/800x600/4d494d/686a82.gif&text=placeholder+image" alt="placeholder+image">
+					<div class="list-item-info">
+						<p>राष्ट्रपतिले गरिन धुर्मुसको एकीकृत बस्ती उद्घाटन</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="more-news container-fluid">
+		<!-- MORE NEWS -->
+		<div class="row">
+			<div class="col-md-8">
+				<h4 class="content-header">थप खबरहरू</h4>
+				<div>
+					<!-- <a href="#" class="link-wrapper"> -->
+					<span class="list-items">
+						<div class="img-wrapper">
+							<img src="../images/popular-news4.jpg" alt="placeholder+image">
+						</div>
+						<div class="list-item-info">
+							<h5 class="news-header">हुम्लामा दोस्रो पटक हिमपात: कृषक खुशी, यातायात अबरुद्द</h5>
+							<p class="byline">
+								<span class="author-name">संवाददाता</span> | माघ २३, २०७४
+							</p>
+							<p>नेपाल भारतको सिमामा बनेको बहुप्रतिक्षित ‘इन्टरग्रेटेड चेक पोष्ट’ (आइसीपी) अर्थात एकीकृत जाँच चौकी संचालन ल्याउन तयारी
+								भइरहेको छ । फेब्रुअरी १० अर्थात माघ २७ मा संचालनमा ल्याउन वीरगन्ज उद्योग बाणिज्य संघले प्रस्ताव गरेको छ । यता सरकारी
+								स्तरबाट तिथी नतोकिए पनि संचालनमा ल्याउने तयारी चाँही भइरहेको सरोकारवालाले बताएका छन् ।</p>
+						</div>
+					</span>
+					<!-- </a> -->
+					<a href="#" class="link-wrapper">
+						<span class="list-items">
+							<div class="img-wrapper">
+								<img src="../images/popular-news4.jpg" alt="placeholder+image">
+							</div>
+							<div class="list-item-info">
+								<h5 class="news-header">भक्तपुरमा बलात्कारका तीन घटनाका तीन आरोपी पक्राउ</h5>
+								<p class="byline">
+									<span class="author-name">संवाददाता</span> | माघ २३, २०७४
+								</p>
+								<p>नेपाल भारतको सिमामा बनेको बहुप्रतिक्षित ‘इन्टरग्रेटेड चेक पोष्ट’ (आइसीपी) अर्थात एकीकृत जाँच चौकी संचालन ल्याउन तयारी
+									भइरहेको छ । फेब्रुअरी १० अर्थात माघ २७ मा संचालनमा ल्याउन वीरगन्ज उद्योग बाणिज्य संघले प्रस्ताव गरेको छ । यता सरकारी
+									स्तरबाट तिथी नतोकिए पनि संचालनमा ल्याउने तयारी चाँही भइरहेको सरोकारवालाले बताएका छन् ।</p>
+							</div>
+						</span>
+					</a>
+					<a href="#" class="link-wrapper">
+						<span class="list-items">
+							<div class="img-wrapper">
+								<img src="../images/popular-news4.jpg" alt="placeholder+image">
+							</div>
+							<div class="list-item-info">
+								<h5 class="news-header">यी हुन् मोबाइलमा सबैभन्दा धेरै खर्च गर्ने व्यक्ति र संस्था</h5>
+								<p class="byline">
+									<span class="author-name">संवाददाता</span> | माघ २३, २०७४
+								</p>
+								<p>नेपाल भारतको सिमामा बनेको बहुप्रतिक्षित ‘इन्टरग्रेटेड चेक पोष्ट’ (आइसीपी) अर्थात एकीकृत जाँच चौकी संचालन ल्याउन तयारी
+									भइरहेको छ । फेब्रुअरी १० अर्थात माघ २७ मा संचालनमा ल्याउन वीरगन्ज उद्योग बाणिज्य संघले प्रस्ताव गरेको छ । यता सरकारी
+									स्तरबाट तिथी नतोकिए पनि संचालनमा ल्याउने तयारी चाँही भइरहेको सरोकारवालाले बताएका छन् ।</p>
+							</div>
+						</span>
+					</a>
+					<a href="#" class="link-wrapper">
+						<span class="list-items">
+							<div class="img-wrapper">
+								<img src="../images/popular-news4.jpg" alt="placeholder+image">
+							</div>
+							<div class="list-item-info">
+								<h5 class="news-header">सडकका डिभाइडर हटाउँदै उपमहानगरपालिका</h5>
+								<p class="byline">
+									<span class="author-name">संवाददाता</span> | माघ २३, २०७४
+								</p>
+								<p>नेपाल भारतको सिमामा बनेको बहुप्रतिक्षित ‘इन्टरग्रेटेड चेक पोष्ट’ (आइसीपी) अर्थात एकीकृत जाँच चौकी संचालन ल्याउन तयारी
+									भइरहेको छ । फेब्रुअरी १० अर्थात माघ २७ मा संचालनमा ल्याउन वीरगन्ज उद्योग बाणिज्य संघले प्रस्ताव गरेको छ । यता सरकारी
+									स्तरबाट तिथी नतोकिए पनि संचालनमा ल्याउने तयारी चाँही भइरहेको सरोकारवालाले बताएका छन् ।</p>
+							</div>
+						</span>
+					</a>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<!-- TRENDING NEWS -->
+				<h4 class="content-header">लोकप्रिय समाचार</h4>
+				<div class="trending-news-wrapper">
+					<div class="content-mainimg-wrapper">
+						<img src="../images/travel-main.jpg" alt="travel-phewa-lake">
+						<div class="content-caption">
+							<h5>राष्ट्रिय सभा निर्वाचनका लागि प्रदेश ३ को तयारी</h5>
+						</div>
+					</div>
+					<div class="content-mainimg-wrapper">
+						<img src="../images/travel-main.jpg" alt="travel-phewa-lake">
+						<div class="content-caption">
+							<h5>राष्ट्रिय सभा निर्वाचनका लागि प्रदेश ३ को तयारी</h5>
+						</div>
+					</div>
+				</div>
+				<h4 class="content-header">Newsletter</h4>
+				<div class="newsletter form">
+					<h4>Get Updates</h4>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+					<input type="email" class="form-control" id="newsletter-email" placeholder="E-mail">
+					<button class="btn btn-primary" type="button">Subscribe</button>
+					<p class="smaller-p">Don't worry, we hate spams as much as you do.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-3">
+					<img src="http://dummyimage.com/800x600/4d494d/686a82.gif&text=placeholder+logo" class="img-fluid" alt="placeholder+image">
+				</div>
+				<div class="col-md-5 about-us-footer">
+					<!-- <img src="http://dummyimage.com/800x600/4d494d/686a82.gif&text=placeholder+image" class="img-fluid" alt="placeholder+image"> -->
+					<h5>About Lorem Ipsum</h5>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quasi, aut quam perferendis optio quisquam consequuntur
+						dolor quod odio! Est veniam odio, cupiditate ipsam dolorem saepe maiores consequatur officia voluptatum?</p>
+					<div class="social-links-footer">
+						<a href="#">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+						</a>
+						<a href="#">
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+						</a>
+						<a href="#">
+							<i class="fa fa-youtube-play" aria-hidden="true"></i>
+						</a>
+						<a href="#">
+							<i class="fa fa-vimeo-square" aria-hidden="true"></i>
+						</a>
+						<a href="#">
+							<i class="fa fa-google-plus-square" aria-hidden="true"></i>
+						</a>
+						<a href="#">
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<!-- <img src="http://dummyimage.com/800x600/4d494d/686a82.gif&text=placeholder+image" class="img-fluid" alt="placeholder+image"> -->
+					<h5>Additional Links</h5>
+					<div class="row">
+						<div class="col-md-5 d-flex flex-column">
+							<a href="#">About Us</a>
+							<a href="#">Our Team</a>
+							<a href="#">Contact Us</a>
+							<a href="#">Join Us</a>
+						</div>
+						<div class="col-md-6 d-flex flex-column">
+							<a href="#">Legal Agreement</a>
+							<a href="#">Privacy Policy</a>
+							<a href="#">Terms Of Service</a>
+							<a href="#">Press Releases</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</footer>
+	<script src="https://use.fontawesome.com/ae5aa949b1.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+	 crossorigin="anonymous"></script>
+	<script src="../js/index.js"></script>
+</body>
+
+</html>
