@@ -1,4 +1,6 @@
 // ======================== UNIVERSAL STYLING========================
+$primary-color: #3f51b5;
+$primary-color-darker: #3949a5;
 
 body {
   font-family: "Raleway", sans-serif;
@@ -160,6 +162,11 @@ p {
   }
 }
 
+.box-styled {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
 // ============================NAVBAR STYLING=========================
 
 .nav {
@@ -194,25 +201,66 @@ p {
   }
 }
 
+.secondary-navbar {
+  // background-color:$primary-color;
+  background: linear-gradient(#4559cc, #3848a3);
+}
+
+.navbar-brand {
+  img {
+    height: 110px;
+    width: auto;
+
+    @media only screen and (max-width: 768px) {
+      height: 70px;
+    }
+  }
+}
+
 .navbar {
   @extend .padding-horizontal;
   .navbar-collapse {
-    justify-content: flex-end;
+    justify-content: center;
   }
 
+  // a.dropdown-toggle {
+  //   color: rgba(255, 255, 255, 0.5);
+  //   &:active,
+  //   &:hover {
+  //     color: rgba(255, 255, 255, 0.75);
+  //   }
+  // }
+}
+
+.navbar-nav {
+  a.navbar-item,
   a.dropdown-toggle {
-    color: rgba(255, 255, 255, 0.5);
-    &:active,
+    color: #fff !important;
+    padding: 1rem;
+
     &:hover {
-      color: rgba(255, 255, 255, 0.75);
+      background-color: #303e8a;
     }
   }
 
-  @media only screen and (min-width: 768px) {
-    .navbar-brand {
-      font-size: 3rem;
+  .home-icon-wrapper {
+    padding-top: 0.75rem !important;
+    // padding-bottom:0rem !important;
+
+    i {
+      font-size: 2rem;
     }
   }
+
+  .btn:focus {
+    box-shadow: none;
+  }
+}
+
+.primary-navbar {
+  background-color: $primary-color-darker;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 // ==========================HEADLINERS==========================
@@ -229,16 +277,27 @@ section.headliners {
     margin-bottom: 1rem;
   }
 
-  img {
-    max-height: 600px;
-    margin: auto;
-    display: block;
-  }
+  span.headline-content {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
 
-  h2 {
-    font-weight: bold;
-    color: #000;
-    text-align: center;
+    img {
+      max-height: 600px;
+      margin: auto;
+      display: block;
+    }
+
+    h1 {
+      font-weight: bold;
+      color: #000;
+      text-align: center;
+    }
+
+    p {
+      color: #000;
+      font-size: 1.2rem;
+      margin: 1rem 10%;
+    }
   }
 }
 
@@ -289,9 +348,9 @@ section.opinions-section {
     margin-bottom: 15px;
   }
 
-//   .active{
+  //   .active{
 
-    //   }
+  //   }
 }
 
 .tabbed-contents {

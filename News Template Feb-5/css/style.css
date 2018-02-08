@@ -128,6 +128,10 @@ p {
       text-align: left;
       font-weight: bold; }
 
+.box-styled {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem; }
+
 .nav {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -151,19 +155,45 @@ p {
   .nav .fa {
     font-size: 1.2rem; }
 
+.secondary-navbar {
+  background: -webkit-gradient(linear, left top, left bottom, from(#4559cc), to(#3848a3));
+  background: -webkit-linear-gradient(#4559cc, #3848a3);
+  background: -o-linear-gradient(#4559cc, #3848a3);
+  background: linear-gradient(#4559cc, #3848a3); }
+
+.navbar-brand img {
+  height: 110px;
+  width: auto; }
+  @media only screen and (max-width: 768px) {
+    .navbar-brand img {
+      height: 70px; } }
+
 .navbar .navbar-collapse {
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end; }
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
 
-.navbar a.dropdown-toggle {
-  color: rgba(255, 255, 255, 0.5); }
-  .navbar a.dropdown-toggle:active, .navbar a.dropdown-toggle:hover {
-    color: rgba(255, 255, 255, 0.75); }
+.navbar-nav a.navbar-item,
+.navbar-nav a.dropdown-toggle {
+  color: #fff !important;
+  padding: 1rem; }
+  .navbar-nav a.navbar-item:hover,
+  .navbar-nav a.dropdown-toggle:hover {
+    background-color: #303e8a; }
 
-@media only screen and (min-width: 768px) {
-  .navbar .navbar-brand {
-    font-size: 3rem; } }
+.navbar-nav .home-icon-wrapper {
+  padding-top: 0.75rem !important; }
+  .navbar-nav .home-icon-wrapper i {
+    font-size: 2rem; }
+
+.navbar-nav .btn:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+.primary-navbar {
+  background-color: #3949a5;
+  padding-top: 0;
+  padding-bottom: 0; }
 
 section.headliners {
   background-color: #f8f8f8; }
@@ -172,14 +202,21 @@ section.headliners {
     padding: 2rem 1rem;
     background-color: #fff;
     margin-bottom: 1rem; }
-  section.headliners img {
-    max-height: 600px;
-    margin: auto;
-    display: block; }
-  section.headliners h2 {
-    font-weight: bold;
-    color: #000;
-    text-align: center; }
+  section.headliners span.headline-content {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem; }
+    section.headliners span.headline-content img {
+      max-height: 600px;
+      margin: auto;
+      display: block; }
+    section.headliners span.headline-content h1 {
+      font-weight: bold;
+      color: #000;
+      text-align: center; }
+    section.headliners span.headline-content p {
+      color: #000;
+      font-size: 1.2rem;
+      margin: 1rem 10%; }
 
 section.gallery-section {
   background-color: #f8f8f8; }
