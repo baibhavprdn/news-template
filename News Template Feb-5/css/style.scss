@@ -174,7 +174,7 @@ p {
 // .nav{
 .secondary-navbar {
   @extend .padding-horizontal;
-  //for mobile view 
+  //for mobile view
   justify-content: center;
   background-color: $secondary-color-light;
 
@@ -217,7 +217,7 @@ p {
 
 .navbar {
   @extend .padding-horizontal;
-  
+
   .search-section {
     width: 40%;
     margin-left: auto;
@@ -229,31 +229,30 @@ p {
   }
 
   .navbar-nav {
-  a.navbar-item,
-  a.dropdown-toggle {
-    color: #fff !important;
-    padding: 1rem 1rem;
+    a.navbar-item,
+    a.dropdown-toggle {
+      color: #fff !important;
+      padding: 1rem 1rem;
 
-    &:hover {
-      background-color: #db1e5d;
+      &:hover {
+        background-color: #db1e5d;
+      }
+    }
+
+    .btn:focus {
+      box-shadow: none;
+    }
+
+    .active {
+      background-color: $secondary-color;
     }
   }
-
-  .btn:focus {
-    box-shadow: none;
-  }
-
-  .active{
-    background-color:$secondary-color;
-  }
-}
-
 
   @media only screen and (max-width: 768px) {
     .navbar-brand {
       width: 100%;
       text-align: center;
-      img{
+      img {
         height: 70px;
       }
     }
@@ -347,6 +346,34 @@ section.opinions-section {
   @extend .padding-horizontal;
   @extend .padding-vertical;
 
+  .card {
+
+    .link-wrapper{
+      h5,p{
+        color:#000;
+      }
+    }
+
+    .card-img-wrapper {
+      height: 25rem;
+      overflow: hidden;
+      position:relative;
+
+      img {
+        height: 100%;
+        width: auto;
+
+        //styling for image centering
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+
   .img-wrapper {
     width: 21%;
   }
@@ -365,9 +392,11 @@ section.opinions-section {
     margin-bottom: 15px;
   }
 
-  //   .active{
-
-  //   }
+  .ads-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
 
 .tabbed-contents {
