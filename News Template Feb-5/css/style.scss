@@ -86,14 +86,14 @@ p {
   }
 
   .list-item-info {
-    width: 65%;
+    width: 70%;
     padding: 5px;
     color: rgb(29, 29, 29);
   }
 
   .img-wrapper {
     overflow: hidden;
-    width: 35%;
+    width: 30%;
   }
 }
 
@@ -109,6 +109,7 @@ p {
 
 .news-header {
   font-weight: bold;
+  font-size:1.1rem;
   &:hover {
     color: #000;
   }
@@ -375,11 +376,11 @@ section.opinions-section {
   }
 
   .img-wrapper {
-    width: 21%;
+    width: 25%;
   }
 
   .list-item-info {
-    width: 74%;
+    width: 75%;
   }
 
   .list-items {
@@ -453,7 +454,7 @@ section.news-articles {
 
 // ====================VIDEO SECTION====================
 
-section.video-section {
+section.video-section,section.success-stories {
   @extend .padding-horizontal;
   @extend .padding-vertical;
 
@@ -471,6 +472,29 @@ section.video-section {
 
   .list-item-info {
     padding: 1rem;
+  }
+
+  .content-mainimg-wrapper{
+    height:450px;
+    .content-caption{
+      width:100%;
+    }
+  }
+}
+
+.video-section{
+  .list-items{
+    height:7rem;
+  }
+  .img-wrapper{
+    width:35%
+  }
+  .list-item-info{
+    width:65%;
+    p{
+      font-size:1.2rem;
+      font-weight: bold;
+    }
   }
 }
 

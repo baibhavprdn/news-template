@@ -1,11 +1,11 @@
 body {
   font-family: "Raleway", sans-serif; }
 
-.padding-horizontal, .secondary-navbar, .navbar, section.headliners, section.gallery-section, section.opinions-section, section.news-articles, section.video-section, section.more-news, footer {
+.padding-horizontal, .secondary-navbar, .navbar, section.headliners, section.gallery-section, section.opinions-section, section.news-articles, section.video-section, section.success-stories, section.more-news, footer {
   padding-left: 6%;
   padding-right: 6%; }
 
-.padding-vertical, section.headliners, section.gallery-section, section.opinions-section, section.news-articles, section.video-section, section.more-news, footer {
+.padding-vertical, section.headliners, section.gallery-section, section.opinions-section, section.news-articles, section.video-section, section.success-stories, section.more-news, footer {
   padding-top: 3%;
   padding-bottom: 3%; }
 
@@ -76,12 +76,12 @@ p {
     height: 100%;
     width: auto; }
   .list-items .list-item-info {
-    width: 65%;
+    width: 70%;
     padding: 5px;
     color: #1d1d1d; }
   .list-items .img-wrapper {
     overflow: hidden;
-    width: 35%; }
+    width: 30%; }
 
 .add-padding .list-items {
   margin: 0.8rem 0; }
@@ -90,7 +90,8 @@ p {
   font-weight: bold; }
 
 .news-header {
-  font-weight: bold; }
+  font-weight: bold;
+  font-size: 1.1rem; }
   .news-header:hover {
     color: #000; }
 
@@ -260,10 +261,10 @@ section.opinions-section .card .card-img-wrapper {
     transform: translate(-50%, -50%); }
 
 section.opinions-section .img-wrapper {
-  width: 21%; }
+  width: 25%; }
 
 section.opinions-section .list-item-info {
-  width: 74%; }
+  width: 75%; }
 
 section.opinions-section .list-items {
   margin-bottom: 1rem; }
@@ -320,19 +321,36 @@ section.news-articles .social-media-wrapper {
   padding: 5% 0;
   margin-bottom: 2rem; }
 
-section.video-section .row {
+section.video-section .row, section.success-stories .row {
   background-color: #f8f8f8; }
   @media only screen and (min-width: 540px) {
-    section.video-section .row {
+    section.video-section .row, section.success-stories .row {
       margin: 0.05rem;
       padding: 2rem; } }
 
-section.video-section .list-item-wrapper {
+section.video-section .list-item-wrapper, section.success-stories .list-item-wrapper {
   -ms-flex-pack: distribute;
   justify-content: space-around; }
 
-section.video-section .list-item-info {
+section.video-section .list-item-info, section.success-stories .list-item-info {
   padding: 1rem; }
+
+section.video-section .content-mainimg-wrapper, section.success-stories .content-mainimg-wrapper {
+  height: 450px; }
+  section.video-section .content-mainimg-wrapper .content-caption, section.success-stories .content-mainimg-wrapper .content-caption {
+    width: 100%; }
+
+.video-section .list-items {
+  height: 7rem; }
+
+.video-section .img-wrapper {
+  width: 35%; }
+
+.video-section .list-item-info {
+  width: 65%; }
+  .video-section .list-item-info p {
+    font-size: 1.2rem;
+    font-weight: bold; }
 
 section.more-news .list-items {
   min-height: 250px;
