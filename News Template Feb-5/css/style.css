@@ -1,11 +1,11 @@
 body {
   font-family: "Raleway", sans-serif; }
 
-.padding-horizontal, .secondary-navbar, .navbar, section.headliners, section.gallery-section, section.opinions-section, section.news-articles, section.video-section, section.success-stories, section.more-news, footer {
+.padding-horizontal, .secondary-navbar, .navbar, section.headliners, section.gallery-section, section.opinions-section, section.news-articles, section.video-section, section.success-stories, section.more-news, footer, section.country-list {
   padding-left: 6%;
   padding-right: 6%; }
 
-.padding-vertical, section.headliners, section.gallery-section, section.opinions-section, section.news-articles, section.video-section, section.success-stories, section.more-news, footer {
+.padding-vertical, section.headliners, section.gallery-section, section.opinions-section, section.news-articles, section.video-section, section.success-stories, section.more-news, footer, section.country-list {
   padding-top: 3%;
   padding-bottom: 3%; }
 
@@ -417,3 +417,74 @@ footer {
   footer a {
     font-size: 0.9rem;
     color: #f8f8f8; }
+
+section.country-list .country-list-wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 2rem; }
+
+section.country-list .country-item {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  text-align: center;
+  padding: 0.5rem;
+  display: block; }
+  section.country-list .country-item:hover {
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+  section.country-list .country-item img {
+    height: 90px;
+    width: auto; }
+  section.country-list .country-item h4 {
+    color: #000;
+    margin-top: 0.5rem; }
+
+section.country-list {
+  background-color: #f8f8f8; }
+  section.country-list .card-style, section.country-list .navbar, section.country-list .job-list {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    background-color: #fff; }
+  section.country-list .navbar {
+    padding: 0.5rem 3%; }
+  section.country-list .job-list {
+    padding: 0.5rem 0;
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-top: 1rem; }
+    section.country-list .job-list .img-wrapper {
+      width: 25%;
+      height: 8rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+    section.country-list .job-list .job-list-info {
+      width: 75%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      color: #000; }
+      section.country-list .job-list .job-list-info p {
+        margin-bottom: 0.5rem; }
+  section.country-list .link-wrapper:hover .job-header {
+    text-decoration: underline; }
+  section.country-list nav.nav-pagination {
+    margin-top: 0.8rem; }
