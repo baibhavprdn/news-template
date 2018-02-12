@@ -1,11 +1,13 @@
 body {
   font-family: "Raleway", sans-serif; }
 
-.padding-horizontal, .secondary-navbar, .navbar, section.headliners, section.gallery-section, section.opinions-section, section.news-articles, section.video-section, section.success-stories, section.more-news, footer, section.country-list {
+.padding-horizontal, .secondary-navbar, .navbar, section.headliners, section.gallery-section, section.opinions-section, section.news-articles, section.video-section,
+section.success-stories, section.more-news, footer, section.country-list, section.job-description {
   padding-left: 6%;
   padding-right: 6%; }
 
-.padding-vertical, section.headliners, section.gallery-section, section.opinions-section, section.news-articles, section.video-section, section.success-stories, section.more-news, footer, section.country-list {
+.padding-vertical, section.headliners, section.gallery-section, section.opinions-section, section.news-articles, section.video-section,
+section.success-stories, section.more-news, footer, section.country-list, section.job-description {
   padding-top: 3%;
   padding-bottom: 3%; }
 
@@ -243,7 +245,8 @@ section.gallery-section {
           grid-column: 1/3;
           grid-row: 1/3; } }
 
-section.opinions-section .card .link-wrapper h5, section.opinions-section .card .link-wrapper p {
+section.opinions-section .card .link-wrapper h5,
+section.opinions-section .card .link-wrapper p {
   color: #000; }
 
 section.opinions-section .card .card-img-wrapper {
@@ -321,23 +324,29 @@ section.news-articles .social-media-wrapper {
   padding: 5% 0;
   margin-bottom: 2rem; }
 
-section.video-section .row, section.success-stories .row {
+section.video-section .row,
+section.success-stories .row {
   background-color: #f8f8f8; }
   @media only screen and (min-width: 540px) {
-    section.video-section .row, section.success-stories .row {
+    section.video-section .row,
+    section.success-stories .row {
       margin: 0.05rem;
       padding: 2rem; } }
 
-section.video-section .list-item-wrapper, section.success-stories .list-item-wrapper {
+section.video-section .list-item-wrapper,
+section.success-stories .list-item-wrapper {
   -ms-flex-pack: distribute;
   justify-content: space-around; }
 
-section.video-section .list-item-info, section.success-stories .list-item-info {
+section.video-section .list-item-info,
+section.success-stories .list-item-info {
   padding: 1rem; }
 
-section.video-section .content-mainimg-wrapper, section.success-stories .content-mainimg-wrapper {
+section.video-section .content-mainimg-wrapper,
+section.success-stories .content-mainimg-wrapper {
   height: 450px; }
-  section.video-section .content-mainimg-wrapper .content-caption, section.success-stories .content-mainimg-wrapper .content-caption {
+  section.video-section .content-mainimg-wrapper .content-caption,
+  section.success-stories .content-mainimg-wrapper .content-caption {
     width: 100%; }
 
 .video-section .list-items {
@@ -439,11 +448,12 @@ section.country-list .country-item {
     color: #000;
     margin-top: 0.5rem; }
 
+.card-style, section.country-list .navbar, section.country-list .job-list, section.job-description {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: #fff; }
+
 section.country-list {
   background-color: #f8f8f8; }
-  section.country-list .card-style, section.country-list .navbar, section.country-list .job-list {
-    border: 1px solid rgba(0, 0, 0, 0.125);
-    background-color: #fff; }
   section.country-list .navbar {
     padding: 0.5rem 3%; }
   section.country-list .job-list {
@@ -492,3 +502,16 @@ section.country-list {
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center; }
+
+section.job-description {
+  background-color: #fff; }
+  section.job-description h5, section.job-description h6 {
+    font-weight: bold; }
+  section.job-description ul {
+    list-style-type: none;
+    padding-left: 0; }
+    section.job-description ul .job-label {
+      display: inline-block;
+      width: 150px; }
+  section.job-description ul.qualification {
+    list-style-type: disc; }
