@@ -488,3 +488,7 @@ section.country-list {
     text-decoration: underline; }
   section.country-list nav.nav-pagination {
     margin-top: 0.8rem; }
+    section.country-list nav.nav-pagination .pagination {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
