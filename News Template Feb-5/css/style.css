@@ -2,12 +2,12 @@ body {
   font-family: "Raleway", sans-serif; }
 
 .padding-horizontal, .secondary-navbar, .navbar, section.headliners, section.gallery-section, section.opinions-section, section.news-articles, section.video-section,
-section.success-stories, section.more-news, footer, section.country-list, section.job-description {
+section.success-stories, section.more-news, footer, section.country-list, section.news-list, section.news-content {
   padding-left: 6%;
   padding-right: 6%; }
 
 .padding-vertical, section.headliners, section.gallery-section, section.opinions-section, section.news-articles, section.video-section,
-section.success-stories, section.more-news, footer, section.country-list, section.job-description {
+section.success-stories, section.more-news, footer, section.country-list, section.news-list, section.news-content {
   padding-top: 3%;
   padding-bottom: 3%; }
 
@@ -448,7 +448,7 @@ section.country-list .country-item {
     color: #000;
     margin-top: 0.5rem; }
 
-.card-style, section.country-list .navbar, section.country-list .job-list, section.job-description {
+.card-style, section.country-list .navbar, section.country-list .job-list, section.job-description, section.employer-profile, section.news-list .list-wrapper .list-header, section.news-list .news-item, section.news-content .news-wrapper {
   border: 1px solid rgba(0, 0, 0, 0.125);
   background-color: #fff; }
 
@@ -503,15 +503,97 @@ section.country-list {
       -ms-flex-pack: center;
       justify-content: center; }
 
-section.job-description {
+.job-description-body {
+  background-color: #f8f8f8; }
+
+section.employer-profile .profile-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+section.job-description, section.employer-profile {
+  margin: 3% 6%;
+  padding: 3%;
   background-color: #fff; }
-  section.job-description h5, section.job-description h6 {
+  section.job-description h5, section.employer-profile h5,
+  section.job-description h6, section.employer-profile h6 {
     font-weight: bold; }
-  section.job-description ul {
+  section.job-description .nolist-ul, section.employer-profile .nolist-ul {
     list-style-type: none;
     padding-left: 0; }
-    section.job-description ul .job-label {
+    section.job-description .nolist-ul .job-label, section.employer-profile .nolist-ul .job-label {
       display: inline-block;
       width: 150px; }
-  section.job-description ul.qualification {
-    list-style-type: disc; }
+  section.job-description .btn, section.employer-profile .btn {
+    margin: 0.5rem 0;
+    border-radius: 0;
+    border: none; }
+
+section.news-list {
+  background-color: #f8f8f8; }
+  section.news-list .list-wrapper .list-header {
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: #fff; }
+  section.news-list .news-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin: 2rem 0;
+    background-color: #fff;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    section.news-list .news-item .newsimg-wrapper {
+      width: 25%; }
+    section.news-list .news-item .newsinfo {
+      width: 75%;
+      padding: 1rem;
+      color: #000; }
+    section.news-list .news-item .news-header {
+      font-size: 1.4rem; }
+
+section.news-content {
+  background-color: #f8f8f8; }
+  section.news-content .news-wrapper {
+    background-color: #fff;
+    padding: 1.5rem; }
+  section.news-content h1 {
+    text-align: center;
+    font-weight: bold; }
+  section.news-content .byline {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem; }
+  section.news-content .share-socialmedia i {
+    display: inline-block;
+    border-radius: 60px;
+    -webkit-box-shadow: 0px 0px 2px #888;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;
+    color: #fff; }
+  section.news-content .share-socialmedia .fa-facebook:before {
+    padding-left: 4px;
+    padding-right: 4px; }
+  section.news-content .news-content-writing {
+    font-size: 1.1rem; }
+    section.news-content .news-content-writing span {
+      font-weight: bold; }
+  section.news-content form {
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: #f8f8f8; }
+    section.news-content form label {
+      font-weight: bold; }
+  section.news-content .col-md-3 img {
+    margin-bottom: 1rem; }
