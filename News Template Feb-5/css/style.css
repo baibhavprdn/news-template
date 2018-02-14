@@ -84,6 +84,13 @@ p {
   .list-items .img-wrapper {
     overflow: hidden;
     width: 30%; }
+  @media only screen and (min-width: 450px) and (max-width: 768px) {
+    .list-items .list-items {
+      height: 7rem; }
+    .list-items .list-item-info {
+      width: 80%; }
+    .list-items .img-wrapper {
+      width: 20%; } }
 
 .add-padding .list-items {
   margin: 0.8rem 0; }
@@ -125,7 +132,8 @@ p {
     z-index: 2;
     color: #fff;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.295); }
+    background-color: rgba(0, 0, 0, 0.295);
+    width: 100%; }
     .content-mainimg-wrapper .content-caption h5 {
       padding: 0 1rem;
       text-align: left;
@@ -211,11 +219,11 @@ section.headliners {
   background-color: #f8f8f8; }
   section.headliners span.headline-content {
     display: block;
-    padding: 2rem 1rem;
     background-color: #fff;
     margin-bottom: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.125);
-    border-radius: 0.25rem; }
+    border-radius: 0.25rem;
+    padding: 2rem 1rem; }
     section.headliners span.headline-content:hover {
       -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
@@ -227,10 +235,16 @@ section.headliners {
       font-weight: bold;
       color: #000;
       text-align: center; }
+      @media only screen and (max-width: 768px) {
+        section.headliners span.headline-content h1 {
+          font-size: 1.7rem; } }
     section.headliners span.headline-content p {
       color: #000;
       font-size: 1.2rem;
-      margin: 1rem 10%; }
+      margin-top: 1rem; }
+      @media only screen and (min-width: 768px) {
+        section.headliners span.headline-content p {
+          margin: 1rem 10%; } }
 
 section.gallery-section {
   background-color: #f8f8f8; }
@@ -291,8 +305,14 @@ section.opinions-section .ads-column {
 
 .tabbed-contents {
   background-color: #f8f8f8; }
+  @media only screen and (max-width: 768px) {
+    .tabbed-contents {
+      margin: 1rem 0; } }
   .tabbed-contents .tab-list-items {
     padding: 1rem 0.5rem 0rem; }
+    @media only screen and (max-width: 768px) {
+      .tabbed-contents .tab-list-items .list-items {
+        height: 8rem; } }
   .tabbed-contents .news-header {
     color: #000; }
 
@@ -324,6 +344,14 @@ section.news-articles .social-media-wrapper {
   padding: 5% 0;
   margin-bottom: 2rem; }
 
+@media only screen and (min-width: 450px) and (max-width: 992px) {
+  section.news-articles .most-read .list-items {
+    height: 7rem; }
+  section.news-articles .most-read .list-item-info {
+    width: 70%; }
+  section.news-articles .most-read .img-wrapper {
+    width: 20%; } }
+
 section.video-section .row,
 section.success-stories .row {
   background-color: #f8f8f8; }
@@ -332,6 +360,11 @@ section.success-stories .row {
     section.success-stories .row {
       margin: 0.05rem;
       padding: 2rem; } }
+
+@media only screen and (max-width: 768px) {
+  section.video-section .link-wrapper,
+  section.success-stories .link-wrapper {
+    margin: 1rem 0; } }
 
 section.video-section .list-item-wrapper,
 section.success-stories .list-item-wrapper {
@@ -429,9 +462,18 @@ footer {
 
 section.country-list .country-list-wrapper {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: auto;
   grid-gap: 2rem; }
+  @media only screen and (min-width: 560px) {
+    section.country-list .country-list-wrapper {
+      grid-template-columns: repeat(3, 1fr); } }
+  @media only screen and (min-width: 768px) {
+    section.country-list .country-list-wrapper {
+      grid-template-columns: repeat(4, 1fr); } }
+  @media only screen and (min-width: 992px) {
+    section.country-list .country-list-wrapper {
+      grid-template-columns: repeat(6, 1fr); } }
 
 section.country-list .country-item {
   border: 1px solid rgba(0, 0, 0, 0.125);
@@ -517,6 +559,9 @@ section.employer-profile .profile-wrapper {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
+  @media only screen and (max-width: 768px) {
+    section.employer-profile .profile-wrapper {
+      display: block; } }
 
 section.job-description, section.employer-profile {
   margin: 3% 6%;
@@ -563,6 +608,16 @@ section.news-list {
       color: #000; }
     section.news-list .news-item .news-header {
       font-size: 1.4rem; }
+    @media only screen and (max-width: 768px) {
+      section.news-list .news-item {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; }
+        section.news-list .news-item .newsimg-wrapper {
+          width: 100%; }
+        section.news-list .news-item .newsinfo {
+          width: 100%; } }
 
 section.news-content {
   background-color: #f8f8f8; }
